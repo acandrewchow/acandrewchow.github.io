@@ -12,6 +12,7 @@
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
   <script src="js/scripts.js"></script>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png">
 </head>
 <body>
   <!-- Navbar -->
@@ -26,6 +27,7 @@
       <div class="navbar-menu">
         <a href="#home">Home</a>
         <a href="#about">About</a>
+        <a href="#contact">Contact</a> 
         <a href="blogHome.html">Blog (Coming soon) </a>
       </div>
     </div>
@@ -59,13 +61,12 @@
         <div class="about-text">
           <h2>Andrew Chow</h2>
           <div class ="about-intro">
-            Hi! I'm Andrew, a second year Software Engineering student at the University of Guelph who enjoys problem solving
+            Hi! I'm Andrew, a second year Software Engineering student at the University of Guelph who enjoys problem solving.
           </div>
           <p>
-            I have many interests within the tech industry, including software, product and design. Right now
-            I am currently interning as a QA Analyst at theScore. My goal to experience the different areas and roles
-            within software development throughout my undergrad. Follow me as I will be documenting my experiences through
-            my work terms on my <a href="blogHome.html"> personal blog! </a>
+            I have a passion for building new products and applications and my goal is to elevate my skills and knowledge by
+            experiencing different roles within software development throughout my undergrad. This summer I am currently interning as a QA Analyst at theScore.
+            Follow me as I will be documenting my experiences through my work terms on my <a href="blogHome.html"> personal blog! </a>
           </p>
 
           <p>
@@ -88,7 +89,7 @@
         <div class="skill">
           <div class="skill-info">
             <span>CSS</span>
-            <span>70%</span>
+            <span>80%</span>
           </div>
           <div class="skill-bar css"></div>
         </div>
@@ -96,7 +97,7 @@
         <div class="skill">
           <div class="skill-info">
             <span>Javascript</span>
-            <span>70%</span>
+            <span>75%</span>
           </div>
           <div class="skill-bar js"></div>
         </div>
@@ -104,7 +105,7 @@
         <div class="skill">
           <div class="skill-info">
             <span>Java</span>
-            <span>75%</span>
+            <span>80%</span>
           </div>
           <div class="skill-bar java"></div>
         </div>
@@ -120,10 +121,63 @@
         <div class="skill">
           <div class="skill-info">
             <span>Python</span>
-            <span>75%</span>
+            <span>80%</span>
           </div>
           <div class="skill-bar python"></div>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Contact section -->
+        
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/meqnpqdw" method="POST">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Enter Your Name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Enter Your Email"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              cols="60"
+              rows="10"
+              placeholder="Enter Your Message"
+              name="message"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
       </div>
     </div>
   </section>
@@ -144,6 +198,9 @@
         <a href ="#about">About Me</a>
       </li>
       <li>
+        <a href ="#contact">Contact</a>
+      </li>
+      <li>
         <a href ="blogHome.html">Blog (Coming soon) </a>
       </li>
     </ul>
@@ -153,11 +210,11 @@
   </section>
 
 
-
+  <!-- JS Type library-->
   <script>
     var typed = new Typed(".auto-type", {
         strings: [
-          "Developer",
+          "Software",
           "Product",
           "Design"
         ],
