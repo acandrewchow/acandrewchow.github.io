@@ -451,8 +451,6 @@ section.dark .section-title::after{
   cursor: pointer;
 }
 
-
-
 @media screen and (max-width: 980px){
   .menu-toggler{
     display: block;
