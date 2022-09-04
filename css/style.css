@@ -94,7 +94,7 @@
 #home{
   height: 100vh;
   min-height: 500px;
-  background: url(../images/bg8.jpg) no-repeat center;
+  background: url(../images/homeHeader.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
 }
