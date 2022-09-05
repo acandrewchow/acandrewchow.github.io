@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ubuntu",sans-serif;
+    box-sizing: border-box;
+}
+
+#home-blog-post-1 {
+    height: 100vh;
+    min-height: 500px;
+    background-image: linear-gradient(
+    rgba(21, 30, 65, 0.7),
+    rgba(21, 30, 36, 0.7)
+    ), url('../images/stadium.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#home-blog-post-1 .inner-width{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+  
+#home-blog-post-1 .content{
+    width: 100%;
+    color: #fff;
+}
+  
+#home-blog-post-1 .content h1{
+    font-size: 60px;
+}
+
+.underlined {
+  text-decoration: underline;
+  text-decoration-color: #fccc04;
+}
