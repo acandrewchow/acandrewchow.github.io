@@ -187,6 +187,7 @@ section{
 .about-intro {
   margin-top: 25px;
   font-size: 18px;
+  text-align:justify;
 }
 .about-text{
   flex: 1;
@@ -224,10 +225,11 @@ section{
   text-align:center;
   padding: 1rem;
   position: relative;
+  padding-top: 40px;
 }
 
 .skills{
-  margin-top: 40px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
