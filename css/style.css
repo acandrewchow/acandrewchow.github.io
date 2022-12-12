@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 
-
 .navbar{
   position: fixed;
   background-color: transparent;
@@ -39,7 +38,6 @@
   
 }
 */
-
 
 .menu-toggler{
   background: none;
@@ -309,8 +307,6 @@ section.dark .section-title::after{
 .footer {
   padding: 40px 0;
   background-color: rgb(36, 36, 36);
-
-  
 }
 
 .footer .social {
@@ -347,9 +343,7 @@ section.dark .section-title::after{
   line-height: 1.6;
   margin-bottom: 0;
   text-align: center;
-
 }
-
 
 .footer ul li a {
   color: inherit;
