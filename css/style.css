@@ -94,6 +94,7 @@
   height: 100vh;
   min-height: 500px;
   background: url(../images/homeHeader.jpg) no-repeat center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/homeHeader.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -117,7 +118,8 @@
 
 #home span {
   color: #08f7ff;
-  font-size: 26px;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .sm a {

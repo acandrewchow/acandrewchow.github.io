@@ -13,7 +13,7 @@ $(document).ready(function () {
   var typed = new Typed(".auto-type", {
     strings: ["Developer", "Creator", "Designer"],
     typeSpeed: 125,
-    backSpeed: 125,
+    backSpeed: 200,
     loop: true,
   });
 
