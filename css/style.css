@@ -94,7 +94,8 @@
   height: 100vh;
   min-height: 500px;
   background: url(../images/homeHeader.jpg) no-repeat center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/homeHeader.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../images/homeHeader.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -220,71 +221,31 @@ section {
   margin-top: 20px;
 }
 
-.skill-header {
+.skills-section {
+  margin-top: 50px;
   text-align: center;
-  padding: 1rem;
-  position: relative;
-  padding-top: 40px;
 }
 
-.skills {
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
 }
 
 .skill {
-  width: calc(50% - 20px);
-  margin: 15px 0;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 25px;
 }
 
-.skill-info {
-  display: flex;
-  justify-content: space-between;
-}
-
-.skill-bar {
-  height: 3px;
-  background-color: #ddd;
-  margin-top: 14px;
-  position: relative;
-}
-
-.skill-bar::after {
-  content: "";
-  position: absolute;
-  height: 6px;
-  background-color: #48dbfb;
-  bottom: 0;
-}
-
-.html:after {
-  width: 90%;
-}
-
-.css:after {
-  width: 80%;
-}
-
-.js:after {
-  width: 75%;
-}
-
-.java:after {
-  width: 80%;
-}
-
-.c:after {
-  width: 90%;
-}
-
-.python:after {
-  width: 80%;
-}
-
-.react:after {
-  width: 70%;
+.skill img {
+  width: 100;
+  height: 100px;
+  margin-bottom: 10px;
 }
 
 section.dark {
