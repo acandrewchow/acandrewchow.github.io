@@ -335,7 +335,7 @@ section.dark .section-title::after {
 }
 
 .project {
-  width: 30%;
+  width: 29.5%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   overflow: hidden;
