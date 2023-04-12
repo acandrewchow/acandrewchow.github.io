@@ -271,15 +271,16 @@ section.dark .section-title::after {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
 }
 
 .project {
   width: 30%;
   margin-bottom: 30px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   overflow: hidden;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .project img {
@@ -300,9 +301,8 @@ section.dark .section-title::after {
 }
 
 .project-info h3 {
-  font-size: 18px;
   margin-top: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   color: #555;
 }
 
@@ -322,6 +322,7 @@ section.dark .section-title::after {
   padding: 10px 10px;
   border-radius: 5px;
   width: 40px;
+  
 }
 
 .project-info p {
@@ -356,6 +357,7 @@ section.dark .section-title::after {
   width: 20px;
   height: 20px;
   margin-right: 10px;
+  
 }
 
 /* Footer Section */
@@ -505,6 +507,8 @@ section.dark .section-title::after {
   background-color: rgb(78, 78, 78);
   color: #ffffff;
 }
+
+/* Media Queries */
 
 @media screen and (max-width: 980px) {
   .menu-toggler {
