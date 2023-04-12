@@ -267,7 +267,7 @@ section.dark .section-title::after {
 }
 
 /* Project Section */
-.projects {
+.projects-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -275,12 +275,10 @@ section.dark .section-title::after {
 
 .project {
   width: 30%;
-  margin-bottom: 30px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   overflow: hidden;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin: 30px 25px 30px 25px; 
 }
 
 .project img {
