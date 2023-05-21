@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+}
+
+#home-gallery {
+  height: 100vh;
+  min-height: 500px;
+  background: url(../images/galleryHeader.jpg) no-repeat center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+    url(../images/galleryHeader.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#home-gallery .inner-width {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+#home-gallery .content {
+  width: 100%;
+  color: #fff;
+}
+#home-gallery .content h1 {
+  font-size: 60px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  position: relative;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.gallery-item:hover .caption {
+  opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
