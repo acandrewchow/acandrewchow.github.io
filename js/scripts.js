@@ -11,8 +11,8 @@ $(document).ready(function () {
   
   // JS type Library
   var typed = new Typed(".auto-type", {
-    strings: ["Developer", "Creator", "Designer"],
-    typeSpeed: 125,
+    strings: ["Software", "Product", "Design"],
+    typeSpeed: 200,
     backSpeed: 200,
     loop: true,
   });
