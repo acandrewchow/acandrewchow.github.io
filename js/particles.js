@@ -1,7 +1,7 @@
 window.addEventListener("DOMContentLoaded", (event) => {
   particlesJS("particles-js", {
     particles: {
-      number: { value: 1000, density: { enable: true, value_area: 600 } },
+      number: { value: 125, density: { enable: true, value_area: 2000 } },
       color: { value: "#fff" },
       shape: {
         type: "circle",
