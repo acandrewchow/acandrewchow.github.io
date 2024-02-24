@@ -1,3 +1,3 @@
 # acandrewchow.github.io
 
-Old website, migrated to https://andrewchow.ca
+Resume hosted with GH Pages
